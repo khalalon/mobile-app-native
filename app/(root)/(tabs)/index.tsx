@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-        <Text className="font-bold text-lg my-10">Welcome to Mobile Application</Text>
+        <Text className="font-bold text-3xl font-rubik my-10">Welcome to Mobile Application</Text>
         <Link href="/sign-in">Sign in </Link>
         <Link href="/explore">Explore </Link>
         <Link href="/profile">Profile </Link>
