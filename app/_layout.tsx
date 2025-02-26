@@ -21,6 +21,6 @@ export default function RootLayout() {
     }
   }, [fontsLoaded]);
   if(!fontsLoaded) return null;
-
+// remove the header from any stack screen
   return <Stack screenOptions={{headerShown: false}}/>;
 }
