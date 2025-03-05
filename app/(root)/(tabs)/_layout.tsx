@@ -9,7 +9,7 @@ const TabIcon = ({
                      title,
                  }: {
     focused: boolean;
-    icon: ImageSourcePropType;
+    icon: any;
     title: string;
 }) => (
     <View className="flex-1 mt-3 flex flex-col items-center">
